@@ -17,6 +17,7 @@ rl.on('line', (input) => {
         rl.close();
         let arr = input.split(" ").map(p=>parseInt(p))
         if(x>y){
+          console.log(arr.length)
            return
         }
         let c=0
@@ -25,7 +26,8 @@ rl.on('line', (input) => {
             c++;
         }
         }
-        console.log(Math.ceil(c/2)+)
+        console.log(Math.ceil(c/2)+"")
+        return
     }
     l++
 })
